@@ -96,7 +96,7 @@ jobs:
           
       - name: Clone SCInsta Repo
         run: |
-          git clone --recurse-submodules https://github.com/zeuikli/SCInsta
+          git clone --recurse-submodules https://github.com/SoCuul/SCInsta
           pwd
           mkdir -p packages
 
@@ -145,8 +145,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: v0.4.1
-          name: v0.4.1
+          tag_name: lastest
+          name: lastest
           files: |
             /Users/runner/work/SCInsta/SCInsta/SCInsta/packages/*.ipa
             /Users/runner/work/SCInsta/SCInsta/SCInsta/packages/*.deb

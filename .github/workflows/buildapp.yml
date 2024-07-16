@@ -96,7 +96,7 @@ jobs:
           
       - name: Clone SCInsta Repo
         run: |
-          git clone --recurse-submodules https://github.com/SoCuul/SCInsta
+          git clone --recurse-submodules https://github.com/leminhhieuctvn/SCInsta
           pwd
           mkdir -p packages
 

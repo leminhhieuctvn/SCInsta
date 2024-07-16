@@ -110,7 +110,7 @@ jobs:
           
       - name: Build SCInsta tweak for sideloading (as IPA)
         run: |
-          PROJECT_PATH=/Users/runner/work/SCInsta/SCInsta/SCInsta/
+          PROJECT_PATH=/Users/runner/work/SCInsta/SCInsta/
           cd $PROJECT_PATH
           
           CMAKE_OSX_ARCHITECTURES="arm64e;arm64"

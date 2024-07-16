@@ -117,11 +117,11 @@ jobs:
 
           bash -c "$(curl https://raw.githubusercontent.com/asdfzxcvbn/pyzule/main/install-pyzule.sh)"
 
-          ipaFile="/Users/runner/work/SCInsta/SCInsta/packages/com.burbn.instagram.ipa"
+          ipaFile="/Users/runner/work/SCInsta/packages/com.burbn.instagram.ipa"
           
           echo "IPA File: $ipaFile"
           
-          ls -l /Users/runner/work/SCInsta/SCInsta/SCInsta/packages
+          ls -l /Users/runner/work/SCInsta/SCInsta/packages
           ./build.sh sideload
 
           

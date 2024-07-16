@@ -121,7 +121,7 @@ jobs:
           
           echo "IPA File: $ipaFile"
           
-          ls -l /Users/runner/work/SCInsta/SCInsta/packages
+          ls -l
           ./build.sh sideload
 
           

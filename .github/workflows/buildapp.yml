@@ -118,13 +118,13 @@ jobs:
           bash -c "$(curl https://raw.githubusercontent.com/asdfzxcvbn/pyzule/main/install-pyzule.sh)"
 
           ipaFile="/Users/runner/work/SCInsta/SCInsta/packages/com.burbn.instagram.ipa"
-          echo "IPA File: $ipaFile"
-
-          ls -l
           
+          echo "IPA File: $ipaFile"
+          
+          ls -l /Users/runner/work/SCInsta/SCInsta/SCInsta/packages
           ./build.sh sideload
 
-          ls -l /Users/runner/work/SCInsta/SCInsta/SCInsta/packages
+          
           
         env:
           THEOS: ${{ github.workspace }}/theos

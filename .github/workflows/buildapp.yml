@@ -123,8 +123,6 @@ jobs:
           ls -l
           
           ./build.sh sideload
-          ./build.sh rootless
-          ./build.sh rootful
 
           ls -l /Users/runner/work/SCInsta/SCInsta/SCInsta/packages
           

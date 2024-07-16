@@ -147,6 +147,5 @@ jobs:
           name: lastest
           files: |
             /Users/runner/work/SCInsta/SCInsta/SCInsta/packages/*.ipa
-            /Users/runner/work/SCInsta/SCInsta/SCInsta/packages/*.deb
 
           

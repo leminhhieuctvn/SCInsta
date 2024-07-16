@@ -110,7 +110,7 @@ jobs:
           
       - name: Build SCInsta tweak for sideloading (as IPA)
         run: |
-          PROJECT_PATH=/Users/runner/work/SCInsta/SCInsta/
+          PROJECT_PATH=/Users/runner/work/SCInsta/SCInsta/SCInsta/
           cd $PROJECT_PATH
           
           CMAKE_OSX_ARCHITECTURES="arm64e;arm64"
@@ -118,13 +118,13 @@ jobs:
           bash -c "$(curl https://raw.githubusercontent.com/asdfzxcvbn/pyzule/main/install-pyzule.sh)"
 
           ipaFile="/Users/runner/work/SCInsta/SCInsta/packages/com.burbn.instagram.ipa"
-          
           echo "IPA File: $ipaFile"
-          
+
           ls -l
+          
           ./build.sh sideload
 
-          
+          ls -l /Users/runner/work/SCInsta/SCInsta/SCInsta/packages
           
         env:
           THEOS: ${{ github.workspace }}/theos
